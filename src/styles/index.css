@@ -1,12 +1,51 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+    margin-top: 30px;
+    font-family: "Dancing Script", cursive;  
+    color: goldenrod;  
+    text-shadow: 50px 20px 40px black;
+}
 
-/* 
+.inputTarea{    
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: "Dancing Script", cursive;  
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.regalo{
+    border: 2px solid goldenrod;   
+    margin-bottom: 5px;
+  
+}
+.wrap{
+    opacity: 90%;
+    background-color: rgb(237, 237, 237);
+    margin-top: 80px;
+    border: 2px goldenrod solid;
+    width: 450px;
+}
+.articuloCaja{
+    text-align: center;
+}
+body{
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:100%;
+    background-image:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cdd1f08f-0da8-4375-ab83-e71f74ee1f46/dg3m3te-b6ffd773-78c5-48ba-b337-f235d8898154.jpg/v1/fit/w_750,h_750,q_70,strp/superman_and_wonder_woman_together_forever__by_migmonster1979_dg3m3te-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzUwIiwicGF0aCI6IlwvZlwvY2RkMWYwOGYtMGRhOC00Mzc1LWFiODMtZTcxZjc0ZWUxZjQ2XC9kZzNtM3RlLWI2ZmZkNzczLTc4YzUtNDhiYS1iMzM3LWYyMzVkODg5ODE1NC5qcGciLCJ3aWR0aCI6Ijw9NzUwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.hLQFxO0dKWwxicFvQGYDa0235grhTtUKa3INIwcKGOE);
+}
+.comentario{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Dancing Script", cursive;  
+    text-shadow: 0px 5px 10px goldenrod;
+
+}
